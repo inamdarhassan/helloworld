@@ -3,8 +3,8 @@
 const express = require('express')
 const app = express();
 
-const port = 8080;
-const host = '0.0.0.0';
+const port = 3000;
+const host = '74.249.50.71';
 
 app.get('/', (req, res) => {
   res.send('Hello World from IBM Cloud Essentials!');
